@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  --primary-color: #f6f8fc;
+  --secondary-color: #9ba4b5;
+  --color-text: #f7fafb;
+  --navbar-color: #212a3e;
+  --navbar-color-text: #9ba4b5;
+}
+.custom-background {
+  background-color: #212a3e;
+}
+
+/* Main-menu css */
+.main-menu {
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  transition: background 0.3s ease; /* Efek transisi smooth untuk background */
+}
+
+.menu-content {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+}
+/* hover card produk hukum */
+.card {
+  transition: background-color 0.3s ease;
+}
+
+.my-card:hover {
+  background-color: #e0f4ff; /* Warna latar belakang yang diinginkan saat hover */
+}
+/* hover statistik */
+.boxx {
+  /* background-color: blue; */
+}
+
+#box1 {
+  background-color: #C2E2FF;
+}
+#box2 {
+  background-color:#FFF2C5;
+}
+#box3 {
+  background-color:#FFD89D;
+}
+#box4 {
+  background-color:#CDFDC1;
+}
+
+#box1:hover {
+  background-color: #d3dee9; /* Ganti dengan warna yang diinginkan */
+}
+#box2:hover {
+  background-color: #dcd8c8; /* Ganti dengan warna yang diinginkan */
+}
+#box3:hover {
+  background-color: #e4ddd1; /* Ganti dengan warna yang diinginkan */
+}
+#box4:hover {
+  background-color: #dfecdc; /* Ganti dengan warna yang diinginkan */
+}
+
+/* Situs hover */
+#situs1 {
+  background-color: #F5F7F8;
+}
+#situs2 {
+  background-color:#F5F7F8;
+}
+#situs3 {
+  background-color:#F5F7F8;
+}
+#situs4 {
+  background-color:#F5F7F8;
+}
+#situs5 {
+  background-color:#F5F7F8;
+}
+
+#situs1:hover {
+  background-color: #F0F0F0; /* Ganti dengan warna yang diinginkan */
+}
+#situs2:hover {
+  background-color: #F0F0F0; /* Ganti dengan warna yang diinginkan */
+}
+#situs3:hover {
+  background-color: #F0F0F0; /* Ganti dengan warna yang diinginkan */
+}
+#situs4:hover {
+  background-color: #F0F0F0; /* Ganti dengan warna yang diinginkan */
+}
+#situs5:hover {
+  background-color: #F0F0F0; /* Ganti dengan warna yang diinginkan */
+}
+
+.pdf-container {
+  /* background-color: #F5F7F8; */
+  border-radius: 10px;
+  max-width: 100%;
+  width: 80%;
+  height: 1000px;
+  margin: 0 auto;
+}
+
+.profile-card {
+  width: 100%;
+  max-width: 600px; /* Menetapkan lebar maksimum */
+  margin: auto; /* Pusatkan kartu */
+}
+
+.profile-image {
+  width: 100%; /* Gambar profil mengisi lebar maksimum */
+  height: auto; /* Tinggi gambar disesuaikan sesuai rasio aspek */
+}
+
+
+
+.footer {
+  width: 100%;
+  min-height: 40vh;
+  background-color: #212a3e;
+  color: var(--color-text);
+}
+
+.footer .row:nth-child(2) {
+  margin-top: 100px;
+}
+
+@media (max-width: 768px) {
+  .pdf-container {
+    height: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  div {
+    flex-direction: column;
+  }
+}
+@media (max-width: 768px) {
+  .profile-col {
+    text-align: center; /* Pusatkan elemen pada layar yang lebih kecil */
+  }
+}

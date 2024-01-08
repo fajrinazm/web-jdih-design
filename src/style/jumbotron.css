@@ -1,0 +1,59 @@
+.my-jumbotron {
+  background-image: url('/src/assets/landingphoto1.svg');
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.jumbotron-content {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.my-jumbotron h1 {
+  color: var(--primary-color);
+  font-weight: 800;
+  text-align: left;
+}
+
+.my-jumbotron p {
+  color: #ffffff;
+}
+
+.breadcrumb-link {
+  color: white;
+  text-decoration: none;
+}
+
+.breadcrumb-link:hover {
+  text-decoration: underline;
+}
+
+.breadcrumb-separator {
+  color: white;
+  margin: 0 5px;
+}
+
+/* Media Query for Tablets */
+@media (max-width: 768px) {
+  .jumbotron-content {
+    padding: 15px;
+    margin-top: 5px;
+  }
+
+  .my-jumbotron h1 {
+    font-size: 24px;
+  }
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 576px) {
+  .my-jumbotron h1 {
+    font-size: 20px;
+  }
+}

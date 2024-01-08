@@ -1,0 +1,17 @@
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Sesuaikan dengan kebutuhan tinggi konten */
+  }
+  
+  .side-content {
+    width: 200px; /* Sesuaikan dengan lebar konten samping */
+    padding: 20px;
+    background-color: #eee; /* Sesuaikan dengan warna latar belakang yang diinginkan */
+  }
+  
+  .center-content {
+    padding: 20px;
+    background-color: #fff; /* Sesuaikan dengan warna latar belakang yang diinginkan */
+  }

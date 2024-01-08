@@ -1,0 +1,35 @@
+.paper-background {
+    background-color: white; /* Warna kertas */
+    color: #272829;
+    padding: 50px; /* Jarak dari border ke konten di dalamnya */
+    margin: 50px auto; /* Jarak dari elemen lain (jika ada), auto di sisi kiri dan kanan */
+    margin-bottom: 50px;
+    border-radius: 10px; /* Sudut border yang membulat */
+    min-height: 800px; /* Tinggi elemen */
+    /* width: 50%; Lebar elemen */
+    text-align: center;
+  }
+.paper-background-sejarah{
+  background-color: white; /* Warna kertas */
+  color: #272829;
+  padding: 50px; /* Jarak dari border ke konten di dalamnya */
+  margin: 50px auto; /* Jarak dari elemen lain (jika ada), auto di sisi kiri dan kanan */
+  margin-bottom: 50px;
+  border-radius: 10px; /* Sudut border yang membulat */
+  min-height: 1200px; /* Tinggi elemen */
+  /* width: 50%; Lebar elemen */
+  text-align: justify;
+}
+.paper-background-visimisi{
+  background-color: white; /* Warna kertas */
+  color: #272829;
+  padding: 50px; /* Jarak dari border ke konten di dalamnya */
+  margin: 50px auto; /* Jarak dari elemen lain (jika ada), auto di sisi kiri dan kanan */
+  margin-bottom: 50px;
+  border-radius: 10px; /* Sudut border yang membulat */
+  min-height: 800px; /* Tinggi elemen */
+  /* width: 50%; Lebar elemen */
+  text-align: justify;
+}
+
+

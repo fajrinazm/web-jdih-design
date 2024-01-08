@@ -1,0 +1,9 @@
+.table-container {
+    height: 700px; /* Atur tinggi sesuai kebutuhan */
+    overflow-y: auto;
+  }
+  .table-container table td {
+    max-width: 100%;
+    word-break: break-word;
+    white-space: pre-line;
+  }
